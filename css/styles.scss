@@ -1,0 +1,107 @@
+/*
+ * Globals
+ */
+/* Links */
+a,
+a:focus,
+a:hover {
+ color: #ffffff;
+}
+/* Custom default button */
+.btn-secondary {
+ color: #333;
+ background-color: #fff;
+ border: .05rem solid #fff;
+}
+.btn-secondary:hover {
+ color: rgb(38, 104, 197);
+ background-color: #fff;
+ border: .05rem solid #fff;
+}
+.btn-secondary:focus {
+ color: #333;
+ background-color: #fff;
+ border: .05rem solid #fff;
+}
+/*
+ * Base structure
+ */
+html,
+body {
+ height: 100%;
+ background-image: url(../images/background.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+body {
+ display: flex;
+ color: #fff;
+ font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+ box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+.cover-container {
+ max-width: 50em;
+}
+/*
+ * Header
+ */
+.masthead {
+ margin-bottom: 2rem;
+}
+.masthead-brand {
+ margin-bottom: 0;
+}
+.nav-masthead .nav-link {
+ padding: .25rem 0;
+ font-weight: 700;
+ color: black;
+ background-color: transparent;
+ border-bottom: .25rem solid transparent;
+}
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+ border-bottom-color: rgb(38, 104, 197);
+}
+.nav-masthead .nav-link + .nav-link {
+ margin-left: 1rem;
+
+}
+.nav-masthead .active {
+ color: black;
+ border-bottom-color: rgb(38, 104, 197);
+}
+@media (min-width: 48em) {
+ .masthead-brand {
+ float: left;
+ }
+ .nav-masthead {
+ float: right;
+ }
+}
+/*
+ * Cover
+ */
+.cover {
+ padding: 0 1.5rem;
+}
+.cover .btn-lg {
+ padding: .75rem 1.25rem;
+ font-weight: 700;
+}
+.cover-heading{
+ font-weight: 700;
+}
+/*
+ * Footer
+ */
+.mastfoot {
+ color: rgba(255, 255, 255, .5);
+}
+
+.text-white {
+    color: #000!important;
+}
+
+.nav-masthead .nav-link:hover, .nav-masthead .nav-link:focus {
+    border-bottom-color: rgb(38, 104, 197);
+}
